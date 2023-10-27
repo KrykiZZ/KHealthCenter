@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:columnCount="4">
+
+    <TextView
+        android:id="@+id/notification_hr"
+        style="@style/TextAppearance.Compat.Notification.Line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="HR\n86" />
+
+    <TextView
+        android:id="@+id/notification_spo2"
+        style="@style/TextAppearance.Compat.Notification.Line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="SpO2 %\n100" />
+
+    <TextView
+        android:id="@+id/notification_steps"
+        style="@style/TextAppearance.Compat.Notification.Line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Steps\n1000" />
+
+    <TextView
+        android:id="@+id/notification_distance"
+        style="@style/TextAppearance.Compat.Notification.Line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="3"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Distance\n1000m"
+        android:textAlignment="center" />
+
+</GridLayout>
